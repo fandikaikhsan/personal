@@ -10,7 +10,7 @@ export default function Home() {
         <ProjectCarousel projects={ProjectsConstant} />
       </div>
       <HomeIntroWrap />
-      <div className="h-[70rem]">""</div>
+      <div className="h-[70rem]">a</div>
     </main>
   )
 }
