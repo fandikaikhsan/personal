@@ -9,7 +9,7 @@ type Project = {
 export default function ProjectCarousel({ projects }: { projects: Project[] }) {
   return (
     <div className="flex flex-col w-full gap-5 justify-center text-center p-5">
-      <div className="flex flex-row gap-5 overflow-scrolljustify-start text-center">
+      <div className="flex flex-row overflow-scroll justify-start text-center">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
