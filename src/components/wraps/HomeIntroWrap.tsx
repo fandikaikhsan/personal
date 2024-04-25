@@ -2,7 +2,7 @@
 
 export default function HomeIntroWrap() {
   return (
-    <div className="flex flex-col  items-end w-[80%] md:w-[50%] lg:w-[40%] text-end px-10 gap-5 mt-10">
+    <div className="flex flex-col flex-shrink-0 items-end w-[80%] md:w-[50%] lg:w-[40%] text-end px-10 gap-5 mt-10">
       <h1 className="text-[3rem] lg:text-[6rem] font-thin leading-[4rem] lg:leading-[6rem] uppercase">
         Fandika
       </h1>
