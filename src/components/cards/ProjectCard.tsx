@@ -8,7 +8,7 @@ export default function ProjectCard({
   short_desc: string
 }) {
   return (
-    <div className="flex flex-col gap-5 justify-center text-center w-[18rem] p-5">
+    <div className="flex flex-shrink-0 flex-col gap-5 justify-center text-center w-[18rem] p-5">
       <img src={image} alt={title} />
       <div className="">
         <h2 className="font-bold uppercase">{title}</h2>
