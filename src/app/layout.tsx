@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>
