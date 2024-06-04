@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <div className="hidden lg:flex flex-col gap-5 h-full w-[20rem] bg-green-300">
+    <div className="hidden lg:flex h-full flex-col gap-5 w-[20rem] bg-green-300">
       <div className="flex flex-col gap-5 p-5 bg-blue-400">
         <div className="flex gap-4 items-center">
           <div className="h-[4rem] w-[4rem] rounded-full bg-gray-500"></div>
