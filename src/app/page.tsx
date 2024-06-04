@@ -4,6 +4,7 @@ import Sidebar from "@/components/nav/Sidebar"
 import { useEffect, useRef } from "react"
 import { motion, useInView, useScroll, useTransform } from "framer-motion"
 import DummyContent from "@/components/dummy/HomeContentDummy"
+import HomeTypeAnimationWrap from "@/components/wraps/HomeTypeAnimationWrap"
 
 function ContentContainer() {
   const refMain = useRef(null)
@@ -36,7 +37,7 @@ function ContentContainer() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="relative h-screen"
           >
-            <h1 className="text-[12rem] font-bold">Tech, Design, and Fun</h1>
+            <HomeTypeAnimationWrap />
             <div className="absolute text-lg right-10 bottom-[10rem]">
               Scroll down to see more
             </div>
