@@ -7,19 +7,19 @@ function PeoplePhotoGrid() {
   return (
     <section className="flex gap-5 h-[20rem]">
       <Image
-        src="https://picsum.photos/id/1/200/300"
+        src="https://picsum.photos/id/1/200/300?grayscale"
         alt="Helping People"
         width={200}
         height={200}
       />
       <Image
-        src="https://picsum.photos/id/2/400/300"
+        src="https://picsum.photos/id/2/400/300?grayscale"
         alt="Helping People"
         width={400}
         height={200}
       />
       <Image
-        src="https://picsum.photos/id/30/400/300"
+        src="https://picsum.photos/id/30/400/300?grayscale"
         alt="Helping People"
         width={400}
         height={200}
